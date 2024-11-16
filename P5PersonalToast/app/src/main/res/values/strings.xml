@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">P5PersonalToast</string>
+    <string name="lblA1Info">Personaliza Toast</string>
+    <string name="btnA1Lanzar">Lanzar Toast</string>
+    <string name="lblA2Nombre">MSCD Juan</string>
+    <string name="lblA2Apellido">Gutierritos</string>
+
+
+</resources>

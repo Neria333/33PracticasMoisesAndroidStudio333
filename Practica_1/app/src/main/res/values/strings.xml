@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Practica_1</string>
+    <string name="btnA1Siguente">SigActivity</string>
+    <string name="etiqqueta1Bienvenida">P1 Comunicasión Activity</string>
+    <string name="lblA2Saludo">Hola Mundo!!</string>
+    <string name="pideDatos">Ingresa Nombre</string>
+    <string name="pasaParametro">pasaNombre</string>
+
+
+</resources>
