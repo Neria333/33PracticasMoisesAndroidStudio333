@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Título -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Administrar Perfiles"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Botón con imagen del conductor -->
+        <ImageButton
+            android:id="@+id/btnFotoConductor"
+            android:layout_width="500dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/conductor"
+            android:background="@null"
+            android:contentDescription="Foto del conductor" />
+
+        <!-- Checkboxes para ID -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seleccionar IDs:"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/checkBox101"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID 101" />
+
+        <CheckBox
+            android:id="@+id/checkBox102"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID 102" />
+
+        <CheckBox
+            android:id="@+id/checkBox103"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID 103" />
+
+        <CheckBox
+            android:id="@+id/checkBox104"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID 104" />
+
+        <CheckBox
+            android:id="@+id/checkBox105"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID 105" />
+
+        <!-- Checkboxes para Roles -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seleccionar Rol:"
+            android:layout_marginTop="16dp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/checkBoxAdmin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Administrador" />
+
+        <CheckBox
+            android:id="@+id/checkBoxConductor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Conductor" />
+
+        <CheckBox
+            android:id="@+id/checkBoxVerificador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Verificador" />
+
+        <!-- Botones -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btnEditar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Editar"
+                android:layout_marginEnd="8dp" />
+
+            <Button
+                android:id="@+id/btnGuardar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Guardar" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
